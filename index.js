@@ -75,6 +75,7 @@ colorChoice.addEventListener("change", () => {
 
 random.addEventListener("click", () => {
   isRandomMode = !isRandomMode; 
+  window.alert("You will need to press it again if you want to  disable Random-Color")
 });
 
 createGrid(16);

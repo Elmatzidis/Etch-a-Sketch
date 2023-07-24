@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Etch a Sketch</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="content">
-    <div class="Etch-a-Sketch"></div>
-    <div class="buttons">
-      <input  id="color-choice" type="color" >
-      <button id="change-Random">Random</button>
-      <button id="clear" >Clear</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="Etch-a-Sketch"></div>
+      <div class="buttons">
+        <input id="color-choice" type="color" />
+        <button id="change-Random">Random</button>
+        <button id="clear">Clear</button>
+        <div>
+          <input
+            id="grid-size"
+            type="text"
+            placeholder="Size of Etch a Sketch"
+            min="8"
+            max="128"
+          />
+          <button id="createGridBtn">Set size</button>
+        </div>
+      </div>
     </div>
-    <input id="grid-size" type="text" placeholder="Size of Etch a Sketch" min="8" max="128">
-    <button id="createGridBtn">Set size</button>
-  </div>
-  <script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
