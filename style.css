@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content{
+  box-shadow: 0 0 10px black;
+}
+
+.Etch-a-Sketch{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  display: grid; 
+  
+}
+
+.square{
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
