@@ -28,7 +28,7 @@ function createGrid(size) {
 function hoverPixel() {
   const squares = document.querySelectorAll(".square");
   squares.forEach((square) => {
-    square.addEventListener("mousedown", paintSquare);
+    square.addEventListener("click", paintSquare);
   });
 }
 
