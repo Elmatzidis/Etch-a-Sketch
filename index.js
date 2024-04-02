@@ -24,13 +24,13 @@ function createGrid(size) {
   hoverPixel();
 }
 
-// // When hovering on squares you paint them
-// function hoverPixel() {
-//   const squares = document.querySelectorAll(".square");
-//   squares.forEach((square) => {
-//     square.addEventListener("click", paintSquare);
-//   });
-// }
+// When hovering on squares you paint them
+function hoverPixel() {
+  const squares = document.querySelectorAll(".square");
+  squares.forEach((square) => {
+    square.addEventListener("mouseup", paintSquare);
+  });
+}
 
 function paintSquare() {
   if (isRandomMode) { 
